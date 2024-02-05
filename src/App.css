@@ -1,0 +1,39 @@
+#root {
+  width: 100%;
+  height: 100%;
+  background-image: url("http://cdn.pixabay.com/photo/2016/12/21/18/34/clouds-1923545_1280.png");
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.CardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  row-gap: 0px;
+  padding-top: 20px;
+}
+.Card {
+  background-color: rgba(163, 209, 255, 0.2);
+  width: 250px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-radius: 5%;
+}
+.Card .card-body {
+  text-align: center;
+  margin: 0px;
+}
+.Opciones {
+  margin: 0px;
+  width: 70%;
+  margin-left: 10%;
+}
+
+footer {
+  background-color: #84d3e7;
+}
+
